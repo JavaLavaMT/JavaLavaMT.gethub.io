@@ -1,7 +1,91 @@
 .back{
-  background: url("http://www.shroyco.com/sites/default/files/coming-soon_3.jpg");
- background-repeat: no-repeat;
-   background-attachment: fixed;
-    background-position: center;
+ background-color: #333435;
+  
 }
 
+.center {
+   margin-top:20px;
+   margin-left:20%;
+    width: 50%;
+  height:500px;
+    border: 3px solid #73AD21;
+    padding: 20px;
+}
+
+.bigBox{
+ 
+  position:absolute;
+  right:50%;
+  left:50%;
+  top:70px;
+   margin-top:35px;
+   margin-left:-24%;
+  height:470px;
+  width:723px;
+  background-image: url("https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/28576061_1943232829051303_3534382519782735872_n.jpg?oh=9fa4010eb8fdbf3980982861e30376a7&oe=5B000847" );
+  
+   background-color:#d1d1d1;
+  background-size:41% 29%;
+  background-repeat: no-repeat;
+  background-position: 102% 100%; 
+  
+}
+#smallBox{
+  
+  color: #dee0e2;
+  text-align:center;
+  background-color:#000000;
+  padding:0;
+}
+
+#watermark {
+  position: fixed;
+  width:200%; /* Full width (cover the whole page) */
+  height: 200%; /* Full height (cover the whole page) */ 
+  color: #000000;
+  font-size: 6px;
+  pointer-events: none;
+  transform: scale(5) rotate(-45deg);
+  opacity: 0.7;
+  z-index:-1;
+   
+}
+#myPhoto {
+  border-radius: 90%;
+  border: 4px solid #6e6f72;
+  margin: auto;
+}
+#myBizPhoto {
+  width:200px;
+  
+  
+  border: 4px solid #6e6f72;
+  margin: auto;
+  z-index:-1;
+  
+}
+
+.col-md-offset-right-12 {
+  width:96%;
+}
+
+.big{
+  color:#2a5d7a;
+  font-size:18px;
+}
+
+p.bold{
+  color:#2a5d7a;
+  font-weight:bold;
+  font-size:24px;
+}
+.mid{
+  color:#2a5d7a;
+  font-size:18px;
+}
+#myBizPhoto {
+  width:200px;
+  margin: auto;
+  z-index:-1;
+  
+}
