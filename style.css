@@ -1,3 +1,8 @@
 .back{
-  background-image: url("https://wallup.net/wp-content/uploads/2016/05/25/277808-digital_art-minimalism-pattern-texture-3D-carbon_fiber-wavy_lines-depth_of_field.jpg");
+  
+  background: url("http://www.shroyco.com/sites/default/files/coming-soon_3.jpg");
+ background-repeat: no-repeat;
+   background-attachment: fixed;
+    background-position: center;
 }
+
