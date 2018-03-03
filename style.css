@@ -1,8 +1,5 @@
 .back{
-  
-  background: url("http://www.shroyco.com/sites/default/files/coming-soon_3.jpg");
- background-repeat: no-repeat;
-   background-attachment: fixed;
-    background-position: center;
+  background-color: red;
+ 
 }
 
