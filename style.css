@@ -1,91 +1,57 @@
-.back{
- background-color: #333435;
-  
+.comp-name {
+  float: left;
+  padding-right: 1em
 }
 
-.center {
-   margin-top:20px;
-   margin-left:20%;
-    width: 50%;
-  height:500px;
-    border: 3px solid #73AD21;
-    padding: 20px;
+.header {
+  display: flex;
+  margin-left: 1em
 }
 
-.bigBox{
- 
-  position:absolute;
-  right:50%;
-  left:50%;
-  top:70px;
-   margin-top:35px;
-   margin-left:-24%;
-  height:470px;
-  width:723px;
-  background-image: url("https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/28576061_1943232829051303_3534382519782735872_n.jpg?oh=9fa4010eb8fdbf3980982861e30376a7&oe=5B000847" );
-  
-   background-color:#d1d1d1;
-  background-size:41% 29%;
-  background-repeat: no-repeat;
-  background-position: 102% 100%; 
-  
-}
-#smallBox{
-  
-  color: #dee0e2;
-  text-align:center;
-  background-color:#000000;
-  padding:0;
+body {
+  background-color: #1fc8db;
+  /* background-image: linear-gradient(141deg, #9fb8ad 0%, #0f3f44 51%, #2cb5e8 75%); */
 }
 
-#watermark {
-  position: fixed;
-  width:200%; /* Full width (cover the whole page) */
-  height: 200%; /* Full height (cover the whole page) */ 
-  color: #000000;
-  font-size: 6px;
-  pointer-events: none;
-  transform: scale(5) rotate(-45deg);
-  opacity: 0.7;
-  z-index:-1;
-   
-}
-#myPhoto {
-  border-radius: 90%;
-  border: 4px solid #6e6f72;
-  margin: auto;
-}
-#myBizPhoto {
-  width:200px;
-  
-  
-  border: 4px solid #6e6f72;
-  margin: auto;
-  z-index:-1;
-  
+.container {
+  display: flex;
+  background-color: #0f3f44;
+  background-image: linear-gradient(141deg, #8dbfc7 2%, #0f3f44 100%);
+  height: 40em;
+  min-width: 100%;
+  z-index: -1;
+  flex-flow: column;
 }
 
-.col-md-offset-right-12 {
-  width:96%;
+.tag-line {
+  font-weight: bold;
+  font-size: 6em;
+  padding-top: 1em;
 }
 
-.big{
-  color:#2a5d7a;
-  font-size:18px;
+.menu {
+  align-self: center;
+  padding-bottom: 1em;
+  font-size: 1.8em;
 }
 
-p.bold{
-  color:#2a5d7a;
-  font-weight:bold;
-  font-size:24px;
+.rightline {
+  background-color: #1fc8db;
+  font-size: 5em;
+  position: absolute;
+  top: 7.8em;
+  width: 50%;
+  right: 0;
+  height: 1em;
+  transform: rotate(-2deg);
 }
-.mid{
-  color:#2a5d7a;
-  font-size:18px;
-}
-#myBizPhoto {
-  width:200px;
-  margin: auto;
-  z-index:-1;
-  
+
+.leftline {
+  height: 1em;
+  background-color: #1fc8db;
+  transform: rotate(2deg);
+  font-size: 5em;
+  position: absolute;
+  top: 7.8em;
+  width: 50%;
 }
