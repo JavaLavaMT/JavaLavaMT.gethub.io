@@ -60,11 +60,51 @@ body {
   width: 50%;
 }
 
+.bio_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.bio {
+  font-size: 3em;
+  color: #ffffffcc;
+  /* color: #e6eff0; */
+  flex-flow: wrap;
+  align-self: flex-end;
+  padding-top: 6em;
+  justify-self: center;
+  width: 12em;
+  z-index: 1;
+}
+
 .profile {
   margin-top: 5.1em;
   z-index: 7;
   width: 100%;
   height: 99em;
-  background-image: url('pictures/desk.jpg');
+  display: flex;
+  flex-direction: column;
+  background-image: url('pictures/des2.jpg');
+  background-repeat: no-repeat;
   background-size: 100% auto;
+}
+
+.overlay {
+  background-color: black;
+  width: 36em;
+  height: 40em;
+  float: right;
+  top: 64em;
+  right: 1em;
+  display: flex;
+  opacity: 0.4;
+  position: absolute;
+}
+
+.prro {
+  display: flex;
+  background-color: green;
+  width: 50em;
+  height: 46em;
+  align-self: center;
 }
